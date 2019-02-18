@@ -1,0 +1,60 @@
+<!--pages/questionnaire/questionnaire.wxml-->
+<scroll-view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view>
+    <label>question 1</label>
+    <input></input>
+  </view>
+  <view>
+    <label>chance 1</label>
+    <radio-group name="radio-group">
+      <label>
+        <radio value="radio1" />
+        radio1
+      </label>
+      <label>
+        <radio value="radio2" />
+        radio2
+      </label>
+    </radio-group>
+  </view>
+  <view>
+    <label>question 2</label>
+    <input></input>
+  </view>
+   <view>
+    <label>chance 2</label>
+    <radio-group name="radio-group">
+      <label>
+        <radio value="radio1" />
+        radio1
+      </label>
+      <label>
+        <radio value="radio2" />
+        radio2
+      </label>
+    </radio-group>
+  </view>
+  <view>
+    <label>question 3</label>
+    <input></input>
+  </view>
+   <view>
+    <label>chance 3</label>
+    <radio-group name="radio-group">
+      <label>
+        <radio value="radio1" />
+        radio1
+      </label>
+      <label>
+        <radio value="radio2" />
+        radio2
+      </label>
+    </radio-group>
+  </view>
+   <view>
+    <button form-type="submit">Submit</button>
+    <button form-type="reset">Reset</button>
+  </view>
+</form>
+</scroll-view>
